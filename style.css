@@ -23,7 +23,7 @@ a:hover {
     height: 100%;
     width: 100%;
     filter: blur(8px);
-    filter: brightness(0.2);
+    filter: brightness(0.8);
     transform: scale(1.1);
 }
 
@@ -111,10 +111,11 @@ a:hover {
 }
 
 .vtuber {
-    width: 15%;
+    width: 20%;
     position: absolute;
-    bottom: 0px;
-    right: 0px;
+    bottom: -8px;
+    right: 10px;
+    z-index: 1000;
 }
 
 .username {
